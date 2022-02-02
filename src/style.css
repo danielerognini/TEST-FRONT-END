@@ -114,6 +114,7 @@ body {
     display: inline-block;
     font-weight: 600;
     font-size: 25px;
+    text-align: left;
 }
 
 .unselected-data {
