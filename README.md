@@ -1,5 +1,7 @@
 # Frontend test for the application to Fatture in cloud
 
+### To view the project online [click here🔗](https://danielerognini.github.io/TEST-FRONT-END/index.html)
+
 ## How to run the project locally:
 
 Install [VS Code🔗](https://code.visualstudio.com/)
