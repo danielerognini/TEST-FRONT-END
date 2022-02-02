@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link href="style.css" rel="stylesheet">
+
+        <script type="module" src="data.js" defer></script>
+        <script type="module" src="selection.js" defer></script>
+        <title>TEST-FRONT-END</title>
+    </head>
+    <body>
+        <div id="table" class="centered-div noselect">
+                <div class="holder"></div>
+        </div>
+        
+        <section class="overview">
+            <div id="unselected-data" class="unselected-data">Selezionare un mese per visualizzarne i dettagli</div>
+            <div id="selected-data" class="months selected-data hidden">Mesi selezionati: <h2 id="months" class="months"></h2></div>
+            <br>
+            <br>
+            <div id="selected-data" class="documents selected-data hidden">Numero di documenti: <p id="documents" class="documents"></p></div>
+            <br>
+            <div id="selected-data" class="total selected-data hidden">Importo totale: <p id="total" class="total"></p></div>
+        </section>
+    </body>
+</html>

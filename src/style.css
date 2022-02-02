@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.centered-div {
+    border-top: 1px solid #EBEDEE;
+    border-bottom: 1px solid #EBEDEE;
+    border-left: 1px solid #EBEDEE;
+    margin-top: 10%;
+    padding-left: 3px;
+}
+
+.box {
+    display: inline-block;
+    margin-left: -3px;
+    width: 80px;
+    height: 110px;
+    border-right: 1px solid #EBEDEE;
+    position: relative;
+}
+
+.month {
+    height: 31px;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    padding-left: 6px;
+    border-bottom: 1px solid #EBEDEE;
+    color: #0D97D5;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 6px;
+    height: 79px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.docs {
+    color: #6F7E86;
+    font-weight: 400;
+}
+
+.amount {
+    color: #00875A;
+    margin-bottom: 15px;
+}
+
+.fill-container {
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    height: 66%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.fill{
+    background-color: #E0F1EB;
+    width: 100%;
+}
+
+.selected{
+    height: 5px;
+    position: relative;
+    bottom: 12px;
+    background-color: #0D97D5;
+    justify-items: flex-end;
+}
+
+.selected > div {
+    height: 3px;
+    background-color: #C6E7F5;
+}
+
+/* Uncomment the lines in the selector to view the selection area */
+.selector{
+    /*border: 1px solid blue;*/
+    /*background: rgba(0,0,0,0.5);*/
+    position: absolute;
+}
+
+.overview {
+    margin-top: 30px;
+    padding: 10px 30px;
+    width: 60%;
+    border: 1px solid #EBEDEE;
+    align-self: left;
+    font-weight: 400;
+}
+
+.months, .unselected-data {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.documents, .total {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.hidden {
+    display: none;
+}
