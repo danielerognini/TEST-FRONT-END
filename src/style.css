@@ -114,6 +114,9 @@ body {
     display: inline-block;
     font-weight: 600;
     font-size: 25px;
+}
+
+.unselected-data {
     width: 100%;
     text-align: center;
 }
